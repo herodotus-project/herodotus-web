@@ -1,0 +1,10 @@
+/* Styles for Page Headers */
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+#page-header {
+  margin: 2rem 0 2rem 0;
+}
