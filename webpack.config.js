@@ -4,13 +4,14 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/index.js',
+    app: './src/app.js',
     print: './src/print.js'
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Herodotus'
+      title: 'Herodotus',
+      template: './src/index.ejs'
     })
   ],
   devtool: 'inline-source-map',

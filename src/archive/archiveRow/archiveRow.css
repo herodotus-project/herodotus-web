@@ -1,0 +1,11 @@
+#archive-row{
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 40.0rem) { 
+  #archive-row{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
